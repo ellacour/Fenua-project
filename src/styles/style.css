@@ -1,22 +1,102 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { }
+@media (min-width: 576px) { 
+
+    
+    .navbar-brand {
+        width: 100%;
+    }
+    
+    .navbar-burger span {
+        /* height: 1px; */
+        /* width: 16px; */
+        height: 2px;
+        width: 18px;
+    }
+  
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
     .navbar.is-transparent {
         background-color: #fff0;
         position: absolute;
         width: 100%;
+    }
+
+    .navbar-burger {
+        /* color: #4a4a4a; */
+        color: #fff;
     }
     
     .navbar.is-transparent .container {
         display: flex;
         justify-content: space-evenly;
     }
+    .full-width-image {
+        height: 100vh;
+    }
+
+    .navbar-item{
+        color: #fff;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+    .hero-section h1.is-size-1-widescreen{
+        font-size: 6rem !important;
+    }
+
+    .navbar h3 {
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+    }
+    .navbar-brand {
+        width: initial;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
+
+
+/* Gobal style */
+
+h1, h2, h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+}
+
+h1.has-text-weight-bold {
+    font-weight: 900 !important;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+.full-width-image.hero-section {
+    background-color: #00000015;
+    background-blend-mode: overlay;
+}
+
+
+/* 021d7d1e-a3fa-1b4d-b1c9-56abc7a836f3 | blob:http://localhost:8000/021d7d1e-a3fa-1b4d-b1c9-56abc7a836f3 */
+
+body {
+    /* color: #333; */
+    color: #fff;
+  }
+  
+  body, .section, .has-background-black {
+    background-color: #151515 !important;
+  }
+  
+  .content h1, .content h2, .content h3, .content h4 {
+    /* color: #363636; */
+    color: #fff;
+  }
+  
+  .blog-list-item.is-featured {
+    /* background-color: #d6400033; */
+    background-color: #f5f5f5;
+  }
+  
