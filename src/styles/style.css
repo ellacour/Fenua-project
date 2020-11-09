@@ -73,30 +73,61 @@ h1.has-text-weight-bold {
     letter-spacing: 0px;
     text-transform: uppercase;
 }
+
+body {
+    /* color: #333; */
+    color: #fff;
+}
+  
+body, .section, .has-background-black {
+    background-color: #151515 !important;
+}
+  
+.content h1, .content h2, .content h3, .content h4 {
+    /* color: #363636; */
+    color: #fff;
+}
+
+
+/* Index-page aka Homepage */
+
 .full-width-image.hero-section {
     background-color: #00000015;
     background-blend-mode: overlay;
 }
 
+.hero-title,
+.hero-subtitle{
+    text-align: center;
+}
 
-/* 021d7d1e-a3fa-1b4d-b1c9-56abc7a836f3 | blob:http://localhost:8000/021d7d1e-a3fa-1b4d-b1c9-56abc7a836f3 */
+.fenua-credits {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px 30px;
+    font-size: 0.8rem;
+    color:#ffffffa8;
+    text-transform: uppercase;
+}
 
-body {
-    /* color: #333; */
-    color: #fff;
-  }
+.fenua-credits li:hover{
+    color: #ffffffed;
+}
   
-  body, .section, .has-background-black {
-    background-color: #151515 !important;
-  }
+.fenua-credits > ul {
+    display: flex;
+}
+
+.fenua-credits > ul > li {
+    padding-right: 10px;
+}
   
-  .content h1, .content h2, .content h3, .content h4 {
-    /* color: #363636; */
-    color: #fff;
-  }
+
+
+
   
-  .blog-list-item.is-featured {
+.blog-list-item.is-featured {
     /* background-color: #d6400033; */
     background-color: #f5f5f5;
-  }
-  
+}
